@@ -1,0 +1,23 @@
+.acc-head{
+    font-size: 20px;
+}
+.Accommodation-container{
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.acc-main-heading{
+    font-size: 27px;
+    line-height: 0px;
+    font-weight: bold;
+}
+.accommodation-details{
+    justify-content: space-between;
+    align-items: center;
+}
+.acc-prg{
+    font-size: 13px;
+}
+.acc-item-details{
+    text-align: start;
+}

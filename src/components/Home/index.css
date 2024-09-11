@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+.home-container{
+    width: 100%;
+    height: 1120px;
+}
+
+.header-container{
+    background-image: url('https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 445px;
+    text-align: center;
+    align-items: center;
+
+}
+h2{
+    border-spacing: 0px;
+}
+.cmp-detail{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding: 10px;
+}
+p{
+    padding-top: 11px;
+}
+.comany-details, .cmp-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.main-head-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    color: #fff;
+    line-height: 0px;
+}
+
+.input-container{
+    border-radius: 45px;
+    width: 500px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.input-search{
+    width: 450px;
+    height: 50px;
+    border-width: 0px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.search-butn{
+    width: 50px;
+    height: 50px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #eb2525;
+    color: #fff;
+    border-radius: 45px;
+    margin: 5px;
+    border-width: 0px;
+    margin-left: 10px;
+
+}
+.cart-prg{
+    line-height: 0px;
+}
+.partnerWitUs-container, .listWithUs-container{
+    background-color: #c3ddfd;
+    width: 45%;
+    border-radius: 7px;
+    padding: 25px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.partnerWitUs-container{
+    background-image: url('https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/Partner%20Card%20(Web).png?q=90');
+    background-size: cover;
+}
+
+.listWithUs-container{
+    background-image: url('https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/List%20Card%20(Web).png?q=90');
+    background-size: cover;
+}
+
+.carts-conatiner{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.help-media-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9fafb;
+}
+.information-butn{
+    width: 165px;
+    height: 117px;
+    border: solid #9dedd6 1px;
+    margin-left: 10px;
+    color: #4b5563;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+.chat-button {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-button .reply-time {
+    font-weight: bold;
+    color: #f00;
+    margin-right: 5px;
+  }
+  
+  
+  .chat-button .chat-icon {
+    font-size: 20px;
+  }
+
+  .cities-container{
+    padding: 25px;
+    margin-top: 20px;
+    background-color: #f9fafb;
+  }
+
+  .city-list {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr); 
+    gap: 3px; 
+    padding-left: 10px;
+}
+.other-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.list-container{
+    height: 336px;
+    width: 192px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    font-size: 13px;
+}
+.app-payment-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9fafb;
+    border-radius: 5px;
+}
+.insite-cart{
+    background-color: #f9fafb;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.app-container, .payment-container{
+    height: 60px;
+    padding: 5px;
+}
+.end-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.AppDownload-module__divider{
+    background-color: #d1d5db;
+    height: 61px;
+    width: 2px;
+}
+
+.about-compy-details, .other-details, .contact-container{
+    height: 336px;
+}
+.icons{
+    border: solid #d1d5db 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 7px;
+}
+.social-media-icons{
+    margin-left: 14px;
+}

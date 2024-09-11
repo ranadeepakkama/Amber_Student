@@ -1,0 +1,30 @@
+.header,.header-right-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.downld-butn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-img{
+    width: 20px;
+    height: 20px;
+}
+.butn{
+    background-color: transparent;
+    color: #fce1e1;
+    border-width: 0px;
+    font-size: 18px;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    padding: 14px;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+}
